@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Forms Exercise: Slides</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+  <div>
+    <strong><label for="First Name">First Name:</label> </strong>
+    <input type="text" name="First Name" id="first-name" placeholder="John" required="">
+
+    <strong><label for="Last Name"> Last Name: </label></strong>
+    <input type="text" name="Last name" id="last-name" placeholder="Smith" required="">
+  </div>
+
+  <div>
+    <label for="radio1">Male</label>
+    <input type="radio" name="valg kjønn" id="radio1" value="Male" required=""/>
+    
+    <label for="radio2">Female</label>
+    <input type="radio" name="valg kjønn" id="radio2" value="Female" required=""/>
+    
+    <label for="radio3">Other</label>
+    <input type="radio" name="valg kjønn" id="radio3" value="Other" required=""/>
+  </div>
+  
+  <div>
+    <strong><label for="Email">Email:</label></strong>
+    <input type="Email" name="Email" required="" placeholder="Your Email">
+
+    <strong><label for="password">Password:</label></strong>
+    <input  type="password" name="password" id="password" placeholder="Your password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required title="Must ciontain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+  </div>
+
+  <div>
+  <strong><label for="select-choice">Birthday</label></strong>
+
+    <select name="select-choice" id="select-choice">
+      <option value="">Month</option>
+      <option>December</option>
+      <option>November</option>
+      <option>October</option>
+      <option>September</option>
+    </select>
+
+    <select name="Day" id="day">
+      <option value="">Day</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+
+    </select>
+    
+    <select name="Year" id="year">
+      <option value="">Year</option>
+      <option>2010</option>
+      <option>2000</option>
+      <option>1990</option>
+      <option>1080</option>
+      <option>1070</option>
+      <option>1960</option>
+    </select>
+  </div>
+  
+  <div>
+    <label for="checkbox">I agree to the terms and conditions</label>
+    <input type="checkbox" name="checkbox" id="checkbox" required="">
+  </div>
+
+  <div>
+    <input type="submit" value="Submit" />
+  </div>
+</form>
+
+
+</body>
+</html>
