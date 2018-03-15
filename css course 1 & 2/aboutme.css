@@ -1,6 +1,12 @@
 h1 {
-  color: #8a8e0c;
+  /*color: #8e8887;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;*/
+
+  border: 2px solid rgb(135,0,50);
 }
+
 
 h2 {
   color: rgb(135,0,50);
@@ -10,6 +16,27 @@ h3 {
   color: rgba(0, 200, 100, 0.2); 
 }
 
+h4 {
+  background: #8e8887;
+}
+ul {
+  color: rgb(0,0,0);
+  background-color: #8e8887
+}
+body {
+  background: url(https://i.imgur.com/Y7FQ2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  color: rgb(0,0,0);
+  background: #8e8887;
+}
+
+p {
+  color: rgb(0,0,0);
+}
 
  /*li 
   color: green;

@@ -1,0 +1,50 @@
+/*
+Element
+*/
+
+h1 {
+  color: #071938
+}
+
+body {
+  background: #656d7a;
+}
+
+
+/*
+Element
+*/
+
+li {
+  border: 50px solid #5b76a3;
+}
+
+/*
+ID
+*/
+#checkbox3 {
+  background: blue
+}
+
+#checkbox3 {
+  color:red;
+}
+
+#checkbox2 {
+  color: blue
+}
+
+#checkbox1 {
+
+  color: red;
+}
+/*
+Class
+*/
+.Box1 {
+  text-decoration: line-through;
+}
+
+.Box {
+  text-decoration: underline;
+}

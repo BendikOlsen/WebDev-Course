@@ -1,0 +1,17 @@
+
+
+* {
+  border:1px solid lightgrey;
+}
+
+li a {
+  color: red;
+}
+
+a[href="http://www.google.com"] {
+  background: blue;
+}
+
+li:nth-of-type(even){
+  background: purple;
+  }
