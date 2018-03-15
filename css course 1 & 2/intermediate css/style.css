@@ -1,0 +1,42 @@
+table {
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 {
+  color: #5f7291;
+
+}
+
+h1 {
+  font-family: Oswald;
+}
+
+h1 {
+  height: 150px
+}
+
+
+td {
+  width: 100px;
+  height: 100px;
+  background: ;
+}
+
+.vertical {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.horizontal {
+  border-bottom: 1px solid black;
+}
+.verticalb {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom:
+}

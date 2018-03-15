@@ -1,0 +1,34 @@
+body {
+  background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/05/Wood-Grain-HD-Background.jpg);
+  background-repeat: repeat;
+  backgorun-size: stretch;
+}
+
+p {
+  font-family: raleway;
+  margin-left: 1.66%;
+  font-size: 45px;
+  font-weight: 200;
+  color: #0f0c0c;
+  text-align: left;
+  text-transform: uppercase;
+  border-bottom: 2px solid #381111;
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-family: Oswald;
+  font-size: 20px;
+  color: #0f0c0c;
+  text-align: left;
+  height: 0px;
+  margin-left: 1.66%;
+}
+
+img {
+  width: 30%;
+  float: right;
+  margin: 1.66%;
+
+}
