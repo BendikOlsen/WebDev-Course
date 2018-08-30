@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PotatapClone</title>
+    <script type="text/javascript" src="paper-full.js"></script>
+<!-- Define inlined PaperScript associate it with myCanvas -->
+<script type="text/paperscript" canvas="myCanvas">
+    var path = new Path();
+    path.strokeColor = 'black';
+    path.add(new Point(30, 75)); 
+    path.add(new Point(30, 25)); 
+    path.add(new Point(80, 25));
+    path.add(new Point(80, 75));
+    path.closed = true;
+    
+    // Select the path, so we can see its handles:
+    path.fullySelected = true;
+    
+    // Create a copy of the path and move it 100pt to the right:
+    var copy = path.clone();
+    copy.fullySelected = true;
+    copy.position.x += 100;
+    
+    // Smooth the segments of the copy:
+    copy.smooth();
+    var myPath = new Path();
+    myPath.strokeColor = 'black';
+    myPath.add(new Point(40, 90));
+    myPath.add(new Point(90, 40));
+    myPath.add(new Point(140, 90));
+</script>
+    
+</head>
+<body>
+    <canvas id="myCanvas" resize></canvas>
+</body>
+</html>
