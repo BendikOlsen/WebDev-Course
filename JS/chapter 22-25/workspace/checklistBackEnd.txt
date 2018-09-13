@@ -1,0 +1,11 @@
+//checklist for javascript backend 
+
+
+1. npm init
+2. npm i --save <pakke1> <pakk2> <pakke3> osv
+
+
+packages: <ejs> <express> 
+
+
+nodemon app.js //for å kjøre gjennom nodemon
